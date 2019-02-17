@@ -10,7 +10,6 @@ public class BaseSteps {
 	@Before
 	public void SetUp(){
 		
-		++Page.count;
 		Page.initConfiguration();
 	}
 	
@@ -20,6 +19,6 @@ public class BaseSteps {
 		{
 			Page.quitBrowser();
 		}
-		System.out.println("Report Generated at : " + System.getProperty("user.dir") + "/target/cucumber-parallel/" + Page.count+ "/index.html");
+		
 	}
 }

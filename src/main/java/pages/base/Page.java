@@ -26,8 +26,6 @@ public class Page {
 	public static Logger log=Logger.getLogger(Page.class);
 	public static WebDriverWait wait;
 	public static String browser;
-	public static int count=0;
-	
 	
 	public static void initConfiguration(){
 		

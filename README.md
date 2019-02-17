@@ -14,3 +14,12 @@ mvn test -Dcucumber.options="--tags @LoginValidation" -Dbrowser=chrome
 
 Reports Generated at below path:
 ProjectDirectory/target/cucumber-parallel/{1}/index.html
+
+Extent Reports can be found below:
+ProjectDirectory/target/cucumber-parallel/{X}.html
+eg.
+
+ProjectDirectory/target/cucumber-parallel/1.html
+ProjectDirectory/target/cucumber-parallel/2.html
+
+where XYZ = 1/2 based upon feature files
