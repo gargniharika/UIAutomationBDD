@@ -9,7 +9,7 @@ public class BaseSteps {
 
 	@Before
 	public void SetUp(){
-		
+		//call the initial setup from page class
 		Page.initConfiguration();
 	}
 	
